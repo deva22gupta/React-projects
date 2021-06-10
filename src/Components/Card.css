@@ -1,0 +1,26 @@
+.container{
+margin: 40px 0;
+margin-top: 60px  !important
+}
+
+.test{
+    margin: 0 2%  !important;
+
+}
+.infected{
+    border-bottom: 10px solid rgb(82, 189, 184);
+
+}
+.recovered{
+    border-bottom: 10px solid rgb(88, 223, 88);
+
+}
+.death{
+border-bottom: 10px solid rgb(179, 71, 71);
+}
+@media (max-width:770px){
+    .test{
+        margin: 2% 0;
+
+    }
+}
