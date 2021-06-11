@@ -50,7 +50,7 @@ const dateBuilder = (d) => {
 
 <main>
 <div className='search-box'>
-    <input type='text' className='search-bar' placeholder='Search'
+    <input type='text' className='search-bar' placeholder='Type the country name and get the info of climatic conditins '
     onChange={e => setQuery(e.target.value)}
     value={query}
     onKeyPress={search}
